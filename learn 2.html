@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        p{
+            color: white;
+            background-color: grey;
+            font-size: 30px;
+        }
+        section{
+            background-color: thistle;
+        }
+        
+        .first{
+            font-size: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p></p><a href="#bottom">Click to go to bottom of page</a>
+        <p></p><h4 id="top">Top of page</h4>
+        <div>
+            <ul>
+                <p><li><a href="tags.html">Tag</a></li></p>
+                <p><li><a href="form.html">Form</a></li></p>
+                <p></p><li><a href="me.html">Me</a></li>
+                <p></p><li><a href="index.html" target="_blank">Index</a></li>
+                <p></p><li><a href="Ire.html">Ire</a></li>
+                <p></p><li><a href="table.html">Table</a></li>
+                
+            </ul>
+        </div>
+        <div>
+            <p><h1><b class="first">Welcome!</b></h1></p>
+
+            <p>Thank you for Installing GNU Octave!</p>
+
+            <p>Octave 6.2 is a minor release which mainly fixes bugs and regressions found since the release of version 6.1</p>
+
+            <p>A full list of changes can be found in the Release Notes from the News menu</p>
+            
+            <!-- This is a sub section -->
+            <p><b><h1>Changed defaullt installation location</h1></b></p>
+
+            <p>Since version 6.1, Octave installs to the system wide default program installation location (inside <sup><sub>C:\Program Files\GNU Octave</sub></sup>)by default.
+            It is a known issue that some operations might fail if octave is installed in a location containing spaces if short file names have been disabbled for the file system of the installation folder.</p>
+
+           <!-- This is the second subsection -->
+            <p><h1><b>BLAS Library Selection</b></h1></p>
+
+            <p>During the installation, a default BLAS library was selected. The installer contains two BLAS implementations, the <a href="tags.html">NetLib reference Blas</a> and <a href="Ire.html">OpenBLAS</a></p>
+
+            <p>The used implementation can be changed after installation with the "BLAS Switcher" in the start menu.</p>
+
+            <!-- This is the third subsection -->
+            <p><h1><b>Included Octave Forge Packages</b></h1></p>
+            <p>A <a href="index.html">number of Octave-Forge packages</a> has been included with Octave for Windows. However, the packages must be loaded in order to use them.</p>
+            <p>
+                <div>
+                  <ul>
+                    <li>To list the available installed packages, use the <sub><sup>pkg list</sup></sub> command</li>
+                    
+                    <li>To load a package in order to use its functions, use the <sub><sup>pkg load PACKAGENAME </sup></sub>command. </li>
+                  </ul>
+                </div>
+        </p>
+            <p>Other packages are available from <a href="me.html">Octave-Forge.</a></p>
+
+            <p><h1><b>Contributing to Octave</b></h1></p>
+
+            <p>Octave has a community that lives from its users. You are welcome to share with that community</p>
+
+            <p>For help and support, visit the <a href="table.html">Ocatve Discourse ,Forum.</a></p>
+
+            <p>Please, report any problems with Octave on the <a href="form.html">Octave website</a></p>
+
+        <p><b><h1>Table showing last 5 user details</h1></b></p>
+
+        <div>
+            <table border="2" align="center">
+                <caption><p><b>Last 5 users</b></p></caption>
+                <tr>
+                    <th bgcolor="red">First Name</th>
+                    <th bgcolor="blue">Last Name</th>
+                    <th bgcolor="purple">Time of download</th>
+                </tr>
+
+                <tr>
+                    <td>Oluwatobiloba</td>
+                    <td>Ayodele</td>
+                    <td>13:00</td>
+                </tr>
+
+                <tr>
+                    <td>Oluwatomisin</td>
+                    <td>Ayodele</td>
+                    <td>14:00</td>
+                </tr>
+
+                <tr>
+                    <td>Oluwatomisona</td>
+                    <td>Ayodele</td>
+                    <td>15:00</td>
+                </tr>
+
+                <tr>
+                    <td>IreOluwatomiwa</td>
+                    <td>Agbe-Davies</td>
+                    <td>16:00</td>
+                </tr>
+
+                <tr>
+                    <td>Adebanke</td>
+                    <td>Agbi</td>
+                    <td>17:00</td>
+                </tr>
+            </table>
+        </div>
+
+        <p><h1><b>To improve our relationship with you</b></h1></p>
+        <section>
+            <div>
+                <h1>please fill the form below</h1>
+                <form action="index.html" >
+                    <section>
+                        <div>
+                            <label for="fname">First name</label>
+                            <input type="text" id="name" placeholder="Firstname">
+                        </div>
+                        <div>
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" placeholder="Lastname">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" placeholder="example@gmail.com">
+                        </div>
+                        <!-- creating options -->
+                        <div>
+                            <h4>please specify your gender</h4>
+                             <label for="gender">Gender</label>
+                             <select id="gener">
+                                 <option>--Select--</option>
+                                 <option value="male">Male</option>
+                                 <option value="female">Female</option>
+                                 <option value="none">None</option>
+                             </select>
+                        
+                            
+                        </div>
+                        <!-- creating checkbox -->
+                        <h4>How did you hear about us</h4>
+                        <div>
+                            <ul>
+                                <li><label for="fandf">Friends/Family 
+                                    <input type="checkbox" value="fandf">
+                                </label></li>
+                                <li><label for="internet">internet Ads
+                                    <input type="checkbox" value="internet">
+                                </label></li>
+                                <li><label for="others">others
+                                    <input type="text" id="others" placeholder="please specify">
+                                </label></li>
+                            </ul>
+                        </div>
+                        <!-- creating radio -->
+                        <h1>How many times have you installed this program</h1>
+                        <div><p></p>
+                            
+                                <label for="one">1
+                                    <input type="radio" value="one" name="hmt">
+                                </label>
+                                <label for="two">2</label>
+                                <input type="radio" value="two" name="hmt" >
+                                <label for="more">more than 2</label>
+                                <input type="radio" value="more" name="hmt">
+                            
+                            
+                        </div>
+                        <!-- comment section -->
+                        <div><p></p>
+                            <label for="msg">Comment</label>
+                            <textarea id="msg" cols="10" rows="2"></textarea>
+                        </div>
+                        <!-- submit button -->
+                        <p></p><button type="submit">Submit</button>
+                        <a href="#top">back to top</a>
+                        <h4 id="bottom" >Bottom of page</h4>
+                        
+                        
+
+                    </section>
+                </form>
+                <p></p><div>
+                    <audio src="Audio/Brent Faiyaz - Show U Off.mp3" controls  loop >Audio is not supported by your browser</audio>
+
+                </div>
+
+                <p></p><div>
+                    <video src="Videos/RPReplay-Final1623492895.MP4" align="center" width= "500px" height= "500px" controls  loop>video is not supported</video>
+                    </div>
+                
+                   <p></p> Status: <progress min ="0" max ="100" value="25"></progress>
+
+                
+                
+                
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </form>
+            </div>
+        </section>
+
+
+            
+
+
+
+
+
+        </div>
+    </section>
+</body>
+</html>

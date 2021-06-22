@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table andForm</title>
+    <style>
+        .top{
+            background-image: url(./Images/IMG-7783.JPG);
+        }
+        table{
+            border: 2px solid hotpink;
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        th{
+            border: 2px solid skyblue;
+            padding: 20px;
+            color:tomato;
+            text-align: left;
+        }
+        td{
+            border: 1px solid teal;
+            padding: 20px;
+            color: seagreen;
+        }
+        #th2{
+            border: 4px solid purple;
+        }
+        tr:nth-child(odd){
+            background-color: powderblue;
+
+        }
+        tr:nth-child(even){
+            background-color: violet;
+        }
+
+        h4{
+            color: tomato;
+            text-align: center;
+            padding: 20px;
+            font-size: large;
+        }
+
+        label{
+            font-style: italic;
+            color: powderblue;
+            padding: 20px;
+        }
+
+        form{
+            color: rebeccapurple;
+            border: 2px solid hotpink;
+            background-color: indigo;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <p><li><a href="tags.html">Tag</a></li></p>
+                <p><li><a href="form.html">Form</a></li></p>
+                <p></p><li><a href="me.html">Me</a></li>
+                <p></p><li><a href="index.html" target="_blank">Index</a></li>
+                <p></p><li><a href="Ire.html">Ire</a></li>
+                <p></p><li><a href="table.html">Table</a></li>
+                <p></p><li><a href="Seat_work.html"></a></li>
+        </ul>
+    </div>
+    <section>
+        <div class="top">
+            <table>
+                <caption><h1>List of people in the Ayodele Family</h1></caption>
+                <tr>
+                    <th>Firstname</th>
+                    <th id="th2">Lastname</th>
+                    <th>Age</th>
+                </tr>
+
+                <tr>
+                    <td>Oluwatobiloba</td>
+                    <td>Ayodele</td>
+                    <td>19</td>
+                </tr>
+
+                <tr>
+                    <td>Oluwatomisin</td>
+                    <td>Ayodele</td>
+                    <td>21</td>
+                </tr>
+
+                <tr>
+                    <td>Oluwatomisona</td>
+                    <td>Ayodele</td>
+                    <td>11</td>
+                </tr>
+
+                <tr>
+                    <td>Akinloye</td>
+                    <td>Ayodele</td>
+                    <td>49</td>
+                </tr>
+
+                <tr>
+                    <td>Oluwayemisi</td>
+                    <td>Ayodele</td>
+                    <td>48</td>
+                </tr>
+
+                <tr>
+                    <td>Iyewunmi</td>
+                    <td>Ayodele</td>
+                    <td>26</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div style="width: 200px; height: 80px;">
+            <h1>Please fill this form</h1>
+            <form action="">
+                <div>
+                    <label for="fname">Firstname</label>
+                <input type="text" id="fname" placeholder="Firstname">
+                </div>
+
+                <div>
+                    <label for="lname">Lastname</label>
+                    <input type="text" id="lname" placeholder="Lastname">
+                </div>
+
+                <div>
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option>--Select--</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+
+                <div>
+                    <h4>hobbies</h4>
+                    <label for="">dancing
+                        <input type="checkbox" value="dancing">
+                    </label>
+                </div>
+                <div>
+                    <label for="">singing
+                        <input type="checkbox" value="singing">
+                    </label>
+                </div>
+                <div>
+                    <label for="">painting
+                        <input type="checkbox" value="painting">
+                    </label>
+                </div>
+
+
+                <div>
+                    <h4>fav fruit</h4>
+                    <label for="">Grapes
+                        <input type="radio" value="grapes" name="favfruit">
+                    </label>
+                </div>
+                <div>
+                    <label for="">Banana
+                    <input type="radio" value="banana" name="favfruit">
+                    </label>
+                </div>
+                <div>
+                    <label for="">Oranges
+                        <input type="radio" value="oranges" name="favfruit">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="msg">Comment</label>
+                    <textarea id="msg" cols="10" rows="2"></textarea>
+                </div>
+                <div>
+                    <button id="submit">Submit</button>
+                </div>
+
+                
+                
+
+            </form>
+            
+            <p><audio src="Audio/Brent Faiyaz - Show U Off.mp3" controls>This audio cannot be played</audio></p>
+            <p><video src="Videos/RPReplay-Final1623492895.MP4" controls width="200px" height="200px">This video is not supported by your browser</video></p>
+        </div>
+    </section>
+
+
+
+    
+
+    
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Final Practice</title>
+</head>
+<body>
+    <h1>Hyperlink</h1>
+    <h1 id="Top">Top of the page</h1>
+    <h4><a href="#bottom">Click here to go to bottom of the page</a></h4>
+    <div>
+        <ul>
+            <p></p><li><a href="final.html">Final</a></li>
+            <p></p><li><a href="form.html">Form</a></li>
+            <p></p><li><a href="index.html">Index</a></li>
+            <p></p><li><a href="Ire.html">Ire</a></li>
+            <p></p><li><a href="learn.html">Learn</a></li>
+            <p></p><li><a href="me.html">Me</a></li>
+        </ul>
+    </div>
+    <section>
+        <div>
+            <caption>This is a table</caption>
+            <table border="2" align="center">
+                <tr>
+                    <th bgcolor="purple">Firstname</th>
+                    <th bgcolor="blue">Lastname</th>
+                    <th bgcolor="pink">Age</th>
+                </tr>
+
+                <tr>
+                    <td>Ayodele</td>
+                    <td>Oluwatobiloba</td>
+                    <td>19</td>
+                </tr>
+
+                <tr>
+                    <td>Ayodele</td>
+                    <td>Oluwatomisin</td>
+                    <td>21</td>
+                </tr>
+                
+                <tr>
+                    <td>Ayodele</td>
+                    <td>Oluwatomisona</td>
+                    <td>12</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section >
+        <div>
+            <h1>Fill this form</h1>
+            <form action="index.html">
+                <div>
+                    <label for="fname">Firstname</label>
+                    <input type="text" id="fname" placeholder="Firstname">
+
+                </div>
+                
+                <div>
+                    <label for="lname">Lastname</label>
+                    <input type="text" id="lname" placeholder="Lastname">
+
+
+                </div>
+                <div>
+                    <!-- creating an option column -->
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option>--Select--</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+                <!-- creating a checkbox -->
+                <h4>Hobbies</h4>
+                <div>
+                    <label for="">
+                        dancing
+                        <input type="checkbox" value="dancing">
+                    </label>
+                    <label for="">
+                        singing
+                        <input type="checkbox" value="dancing">
+                    </label>
+                    <label for="">
+                        painting
+                        <input type="checkbox" value="painting">
+                    </label>
+                </div>
+                <!-- creating a radio -->
+                <h4>favfruit</h4>
+                <div>
+                    <label for="">
+                        grapes
+                        <input type="radio" value="grapes" name="favfruit">
+                    </label>
+                    <label for="">
+                        oranges
+                        <input type="radio" value="oranges" name="favfruit">
+                    </label>
+                    <label for="">
+                        banana
+                        <input type="radio" value="banana" name="favfruit">
+                    </label>
+                </div>
+                <!-- creating a comment section -->
+                <label for="msg">Comment</label>
+                <textarea id="msh" cols="10" rows="2"></textarea>
+                <!-- creating a submit button -->
+                <button id="submit">submit</button>
+            
+                
+            </form>
+
+            <p></p><audio src="Audio/Brent Faiyaz - Show U Off.mp3" controls loop >Audio is not supported by browser</audio>
+
+            <p><video src="Videos/RPReplay-Final1623492895.MP4" width="500px" height="500px"  controls loop>video is not supported by browser</video></p>
+
+            <p>status: <progress min="0" max="100" value="70"></progress> </p>
+
+            <p><a href="#top">back to top</a></p>
+            <p id="bottom">bottom of page</p>
+        </div>
+    </section>
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+#button{
+    color: white;
+    width: 120px;
+    background-color: orange;
+    padding: 2px;
+    
+}
+#head{
+    color: white;
+    background-color: hotpink;
+    margin: 10px;
+    padding: 30px;
+    margin-inline: 30px;
+    
+}
+#body{
+    color: black;
+    background-color: purple;
+    margin: 10px;
+    padding: 30px;
+
+}
+
+#form{
+    float: left;
+    color: black;
+    background-color: purple;
+    width: 24%;
+    height: 400px;
+    padding: 30px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: blue;
+
+}

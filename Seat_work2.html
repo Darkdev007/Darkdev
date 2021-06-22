@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Form and Table</title>
+    
+    
+</head>
+<body>
+    <section>
+        <div>
+            <caption><h1><b>Name of random people</b></h1></caption>
+            <table>
+                <thead id="head">
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+
+                <tbody id="body">
+                    <tr>
+                        <td>Oluwatobiloba</td>
+                        <td>Ayodele</td>
+                        <td>21</td>
+                    </tr>
+
+                    <td>Oluwatomisona</td>
+                    <td>Ayodele</td>
+                    <td>20</td>
+
+                    <tr>
+                        <td>Oluwayemisi</td>
+                        <td>comfort</td>
+                        <td>22</td>
+                    </tr>
+
+                    <tr>
+                        <td>paul</td>
+                        <td>tomiwa</td>
+                        <td>60</td>
+                    </tr>
+
+                    <tr>
+                        <td>vanessa</td>
+                        <td>Nkem</td>
+                        <td>12</td>
+                    </tr>
+
+                    <tr>
+                        <td>iyewunmi</td>
+                        <td>Ayodele</td>
+                        <td>40</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>Please fill this form</h1>
+            <form action="learn_5.html" id="form">
+                <div id="general">
+                <label for="fname">Firstname</label>
+                <input type="text" id="fname" placeholder="firstname">
+                </div>
+
+                <div>
+                    <label for="lname">Lastname</label>
+                    <input type="text" id="lname" placeholder="Lastname">
+
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="name@example.com">
+                </div>
+
+                <div>
+                    <label for="number">Number</label>
+                    <input type="number" id="number" placeholder="+234-0000-000-0000">
+                </div>
+
+                <div>
+                    <label for="gender">Gender</label>
+                    <select id="option">--Select--
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="None">None</option>
+                    </select>
+
+                </div>
+                <h4>hobbies</h4>
+                <div id="hobbies">
+                    <label for="">singing
+                        <input type="checkbox" value="singing">
+
+                    </label>
+                    <label for="">dancing
+                        <input type="checkbox" value="dancing">
+                    </label>
+
+                    <label for="">painting
+                        <input type="checkbox" value="painting">
+                    </label>
+
+
+
+                </div>
+
+                <h4>fav fruit</h4>
+                <div id="fruits">
+                    <label for="">Grapes
+                        <input type="radio" value="grapes" name="favfruit" >
+                    </label>
+                </div>
+                <div>
+                    <label for="">Banana
+                        <input type="radio"  value="banana" name="favfruit">
+                    </label>
+                </div>
+                <div>
+                    <label for="">Pineapple</label>
+                    <input type="radio" value="pineapple" name="favfruit">
+                </div>
+
+                <div>
+                    <label for="msg">comment</label>
+                    <textarea id="msg" cols="10" rows="2"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" id="button">Submit</button>
+                </div>
+                
+
+
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
